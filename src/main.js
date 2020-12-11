@@ -406,7 +406,7 @@ let string = `/*下面将画出一个哆啦A梦*/
         75%  {top:50px;}
         100% {top:0px;}
     }
-   
+    
     `
 let n = 1;
 demo.innerText = string.substr(0, n);
