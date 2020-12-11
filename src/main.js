@@ -391,6 +391,14 @@ let string = `/*下面将画出一个哆啦A梦*/
         transform: translateX(30px);
     }
     /*让哆啦A梦动起来*/
+     @keyframes rotar {
+         from {
+             transform: rotate3D(0, 1, 0, 0deg);
+         }
+         to {
+             transform: rotate3D(0, 1, 0, 360deg);
+         }
+     }
     @keyframes volar{
         0%   {top:0px;}
         25%  {top:0px;}
@@ -398,14 +406,7 @@ let string = `/*下面将画出一个哆啦A梦*/
         75%  {top:50px;}
         100% {top:0px;}
     }
-    @keyframes rotar {
-        from {
-            transform: rotate3D(0, 1, 0, 0deg);
-        }
-        to {
-            transform: rotate3D(0, 1, 0, 360deg);
-        }
-    }
+   
     `
 let n = 1;
 demo.innerText = string.substr(0, n);
