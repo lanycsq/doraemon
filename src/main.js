@@ -270,7 +270,7 @@ let string = `/*下面将画出一个哆啦A梦*/
         margin-left: -55px;
         border:2px solid #000;
         background-color: #3c9cc8;
-        border-radius: 100px /60px;
+        border-radius: 110px /50px;
         z-index: 4;
     }
     .arm.left{
@@ -285,8 +285,8 @@ let string = `/*下面将画出一个哆啦A梦*/
         position: absolute;
         top: 300px;
         left: 50%;
-        margin-left: -90px;
-        width: 180px;
+        margin-left: -100px;
+        width: 200px;
         height: 100px;
         z-index: 3;
     }
@@ -302,11 +302,11 @@ let string = `/*下面将画出一个哆啦A梦*/
         z-index: 9;
     }
     .huevo{
-        width: 140px;
+        width: 160px;
         height: 200px;
         position: absolute;
         left: 50%;
-        margin-left: -70px;
+        margin-left: -80px;
         top:-80px;
         border: 2px solid black;
         background-color:#3c9cc8 ;
@@ -401,9 +401,9 @@ let string = `/*下面将画出一个哆啦A梦*/
      }
     @keyframes volar{
         0%   {top:0px;}
-        25%  {top:0px;}
-        50%  {top:50px;}
-        75%  {top:50px;}
+        25%  {top:10px;}
+        50%  {top:30px;}
+        75%  {top:30px;}
         100% {top:0px;}
     }
     
