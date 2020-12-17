@@ -200,13 +200,13 @@ let string = `/*下面将画出一个哆啦A梦*/
         position: relative;
     }
     .reacangle{
+        background-color: #000;
         position: absolute;
         top: 0;
         left: 50%;
         margin-left: 2px;
         height: 20px;
         width: 4px;
-        background-color: #000;
         position: relative;
     }
     .lip{
