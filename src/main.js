@@ -403,7 +403,7 @@ let string = `/*下面将画出一个哆啦A梦*/
         0%   {top:0px;}
         25%  {top:10px;}
         50%  {top:30px;}
-        75%  {top:30px;}
+        75%  {top:10px;}
         100% {top:0px;}
     }
     
